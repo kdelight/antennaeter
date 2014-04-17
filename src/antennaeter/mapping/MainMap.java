@@ -3,7 +3,11 @@ package antennaeter.mapping;
 /*
  * This class is based off of the SimpleMap2 and SimpleMap classes in the com.bbn.openmap.app.example package of Openmap.
  */
+import java.util.LinkedList;
 import java.util.Properties;
+
+import antennaeter.antenna.Antenna;
+import antennaeter.mapping.layers.AntennaePositionLayer;
 
 import com.bbn.openmap.LayerHandler;
 import com.bbn.openmap.MapBean;
@@ -96,6 +100,9 @@ public class MainMap {
 
 		// Last on top.
 		mapHandler.add(shapeLayer);
+		LinkedList<Antenna> antennaList = new LinkedList<Antenna>();
+		antennaList.add(new Antenna(33.1247, 360 - 117.0808, 30.0, null));
+		mapHandler.add(new AntennaePositionLayer(antennaList));
 		mapHandler.add(new GraticuleLayer());
 	}
 }
