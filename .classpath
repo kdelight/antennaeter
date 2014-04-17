@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/olof/Programming/antennaeter/lib/milStd2525_png.jar"/>
+	<classpathentry kind="lib" path="/home/olof/Programming/antennaeter/lib/omcorba.jar"/>
+	<classpathentry kind="lib" path="/home/olof/Programming/antennaeter/lib/omj3d.jar"/>
+	<classpathentry kind="lib" path="/home/olof/Programming/antennaeter/lib/omsvg.jar"/>
+	<classpathentry kind="lib" path="/home/olof/Programming/antennaeter/lib/openmap.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
